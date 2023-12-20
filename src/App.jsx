@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import Formulario from "./assets/components/Formulario"
 import Header from "./assets/components/Header"
 import ListadoPacientes from "./assets/components/ListadoPacientes"
+import './App.css'
 
 function App() {
   const [pacientes, setPacientes] = useState([]);
@@ -27,7 +28,7 @@ function App() {
     <>
 
       <Header />
-      <div className="mt-12 md:flex">
+      <div className="supercaja mt-12 md:flex">
         <Formulario
           pacientes={pacientes}
           setPacientes={setPacientes}

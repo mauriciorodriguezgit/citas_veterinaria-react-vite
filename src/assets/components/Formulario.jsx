@@ -88,7 +88,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setpaciente }) => {
 
         onSubmit={handleSubmit}
 
-        className=' bg-white shadow-md rounded-lg py-10 px-5 mb-10'>
+        className='seguimiento-paciente shadow-md rounded-lg py-10 px-5 mb-10'>
         <div className=' mb-5'>
 
           {/* error mensaje */}
