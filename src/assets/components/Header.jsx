@@ -6,9 +6,10 @@ const Header = () => {
       <h1 className='font-black text-5xl text-center md:w-2/3 mx-auto'>Seguimiento Pacientes{" "}
         <span className='text-indigo-600'>Veterinaria</span>
       </h1>
-      <a href="https://github.com/mauriciorodriguezgit/citas_veterinaria-react-vite.git"target="_blank" rel="noopener noreferrer">
 
       <button className="btn">
+      <a href="https://github.com/mauriciorodriguezgit/citas_veterinaria-react-vite.git"target="_blank" rel="noopener noreferrer">
+
         <svg width="40" height="40" fill="#0092E4" xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1" viewBox="0 0 24 24" id="github">
           <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,
@@ -23,8 +24,8 @@ const Header = () => {
           4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,
           0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path>
         </svg>
-      </button>
           </a>
+      </button>
     </header>
   )
 }
